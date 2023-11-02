@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # Author - Earl-Felix
 
 for i in range(122, 96, -1):
