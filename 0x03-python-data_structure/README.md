@@ -1,2 +1,0 @@
-Sequences, lists and tuples
-
