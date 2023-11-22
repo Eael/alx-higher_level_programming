@@ -23,7 +23,7 @@ class Square:
         """Returns/Gets current size"""
         return (self.__size)
 
-    @sizesetter
+    @size.setter
     def size(self, value):
         if not isinstance(value, int):
             raise TypeError("size must be an integer")
@@ -38,10 +38,3 @@ class Square:
             print("")
         if self.__size == 0:
             print("")
-
-
-
-
-
-
-
