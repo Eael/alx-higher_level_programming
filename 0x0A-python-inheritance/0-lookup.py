@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """A lookup function to return list of available methods and attributes"""
 
 
