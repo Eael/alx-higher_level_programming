@@ -1,0 +1,27 @@
+Check for module docstring
+	>>> m = __import__("1-my_list").__doc__
+	>>> len(m) > 1
+	True
+
+Check for method docstring
+	>>> c = __import__("1-my_list").MyList.__doc__
+	>>> len(c) > 1
+	True
+
+Check that MyList inherits from list
+	>>> issubclass(MyList, list)
+	True
+
+Check for empty list
+	>>> t = MyList()
+	>>> t.print_sorted()
+	[]
+
+Check that appending works
+	>>> t = MyList()
+	>>> t.append(1)
+	>>> t.append(2)
+	>>> t.append(3)
+	>>> t.append(4)
+	>>> print(t)
+	[1, 2, 3, 4]
