@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 """ A fucntion to find similarities in class"""
 
 
