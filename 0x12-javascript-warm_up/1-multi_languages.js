@@ -1,8 +1,5 @@
 #!/usr/bin/node
 
-let message = 'C is fun';
-console.log(message);
-message = 'Python is cool';
-console.log(message);
-message = 'Javascript is amazing';
-console.log(message);
+console.log('C is fun');
+console.log('Python is cool');
+console.log('Javascript is amazing');
