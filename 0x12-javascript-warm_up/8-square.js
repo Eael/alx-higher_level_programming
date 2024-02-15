@@ -9,7 +9,7 @@ if (isNaN(process.argv[2]) || process.argv[2] === undefined) {
   const num = Number(process.argv[2]);
   let i = 0;
   while (i < num) {
-    console.log('x'.repeat(num));
+    console.log('X'.repeat(num));
     i++;
   }
 }
